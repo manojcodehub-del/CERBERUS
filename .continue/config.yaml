@@ -1,0 +1,18 @@
+name: CERBERUS-X Local AI
+version: 1.0.0
+schema: v1
+models:
+  - name: Qwen Local
+    provider: ollama
+    model: qwen3.5:4b
+    apiBase: http://localhost:11434
+    roles:
+      - chat
+      - edit
+      - apply
+  - name: Local Embeddings
+    provider: ollama
+    model: nomic-embed-text
+    apiBase: http://localhost:11434
+    roles:
+      - embed

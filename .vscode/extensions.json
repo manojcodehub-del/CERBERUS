@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "continue.continue",
+    "eamodio.gitlens",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "humao.rest-client",
+    "usernamehw.errorlens",
+    "ms-azuretools.vscode-docker",
+    "ollama.ollama",
+    "github.vscode-pull-request-github",
+    "google.google-antigravity"
+  ]
+}

@@ -1,0 +1,202 @@
+- generic [ref=e3]:
+  - complementary "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - link "CERBERUS-X EVIDENCE INTELLIGENCE" [ref=e6] [cursor=pointer]:
+        - /url: "#dashboard"
+        - generic [ref=e11]:
+          - text: CERBERUS-X
+          - generic [ref=e12]: EVIDENCE INTELLIGENCE
+      - button "Collapse navigation" [ref=e13] [cursor=pointer]
+    - generic [ref=e17]:
+      - text: COMMAND SYSTEM
+      - generic [ref=e18]: "08"
+    - generic [ref=e19]:
+      - generic [ref=e20]: Workspace
+      - link "Command overview" [ref=e21] [cursor=pointer]:
+        - /url: "#dashboard"
+      - link "Document explorer" [ref=e28] [cursor=pointer]:
+        - /url: "#documents"
+      - link "AI intelligence" [ref=e35] [cursor=pointer]:
+        - /url: "#intelligence"
+    - generic [ref=e49]:
+      - generic [ref=e50]: Analysis
+      - link "Contradiction centre" [ref=e51] [cursor=pointer]:
+        - /url: "#contradictions"
+      - link "Knowledge graph" [ref=e55] [cursor=pointer]:
+        - /url: "#graph"
+      - link "Investigations" [ref=e62] [cursor=pointer]:
+        - /url: "#investigations"
+    - generic [ref=e69]:
+      - generic [ref=e70]: System
+      - link "Reliability & settings" [ref=e71] [cursor=pointer]:
+        - /url: "#reliability"
+    - generic [ref=e76]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: Local API connected
+        - generic [ref=e81]: connected · ready storage
+      - generic [ref=e82]: CERBERUS-X · PHASE 7
+  - generic [ref=e83]:
+    - banner [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]: Workspace
+        - strong [ref=e89]: Knowledge graph
+      - generic [ref=e90]:
+        - generic [ref=e91]: LOCAL MODE
+        - button "Check API status" [ref=e93] [cursor=pointer]
+        - generic [ref=e99]: API online
+    - main [ref=e3065]:
+      - generic [ref=e3070]:
+        - generic [ref=e3071]:
+          - generic [ref=e3072]:
+            - generic [ref=e3073]: PERSISTED NETWORKX DATA
+            - heading "Knowledge graph" [level=1] [ref=e3074]
+            - paragraph [ref=e3075]: Explore actual document, evidence, claim, conflict, and entity records. Every displayed relationship comes from an evidence-backed API edge.
+          - button "Refresh graph" [ref=e3076] [cursor=pointer]
+        - generic [ref=e3082]:
+          - generic [ref=e3083]:
+            - generic [ref=e3084]: 117 nodes
+            - generic [ref=e3085]: 231 relationships
+          - generic [ref=e3086]:
+            - group "Graph rendering mode" [ref=e3087]:
+              - button "3D" [active] [pressed] [ref=e3088] [cursor=pointer]
+              - button "2D" [ref=e3092] [cursor=pointer]
+            - button "Reset view" [ref=e3099] [cursor=pointer]
+        - generic [ref=e3103]:
+          - generic [ref=e3104]:
+            - generic [ref=e3105]:
+              - generic [ref=e3106]: Document
+              - generic [ref=e3108]: Claim
+              - generic [ref=e3110]: Evidence
+              - generic [ref=e3112]: Event
+              - generic [ref=e3114]: Conflict
+              - generic [ref=e3116]: Entity
+            - generic [ref=e5743]:
+              - generic [ref=e5744]:
+                - button "Select SYNTHETIC DEMONSTRATION DATA — invented values for local CERBERUS-X testing only; this is not a real project record." [ref=e5748] [cursor=pointer]
+                - 'button "Select Project ID: DEMO-ALPHA" [ref=e5750] [cursor=pointer]'
+                - button "Select The approved project budget for Project DEMO-ALPHA is INR 1,250,000." [ref=e5752] [cursor=pointer]
+                - 'button "Select Approval date: 2026-11-24." [ref=e5754] [cursor=pointer]'
+                - button "Select The vendor quotation is INR 1,400,000 and is not the approved budget." [ref=e5756] [cursor=pointer]
+                - button "Select phase7_project_charter.pdf" [ref=e5758] [cursor=pointer]
+                - 'button "Select CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-ALPHA Project Name: Project Alpha Evidence Trial The approved project b" [ref=e5760] [cursor=pointer]'
+                - button "Select phase7_project_charter.pdf" [ref=e5762] [cursor=pointer]
+                - 'button "Select CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-ALPHA Project Name: Project Alpha Evidence Trial The approved project b" [ref=e5764] [cursor=pointer]'
+                - button "Select phase7_project_charter.pdf" [ref=e5766] [cursor=pointer]
+                - 'button "Select CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-ALPHA Project Name: Project Alpha Evidence Trial The approved project b" [ref=e5768] [cursor=pointer]'
+                - button "Select phase7_revision_budget_conflict.txt" [ref=e5770] [cursor=pointer]
+                - button "Select CONFIDENTIAL INTERNAL REVISION NOTE" [ref=e5772] [cursor=pointer]
+                - 'button "Select Project ID: DEMO-ALPHA" [ref=e5774] [cursor=pointer]'
+                - 'button "Select Project Name: Project Alpha Evidence Trial" [ref=e5776] [cursor=pointer]'
+                - button "Select The approved project budget for Project DEMO-ALPHA is INR 1,850,000." [ref=e5778] [cursor=pointer]
+                - 'button "Select Approval date: 2026-11-25." [ref=e5780] [cursor=pointer]'
+                - button "Select Project status is DRAFT." [ref=e5782] [cursor=pointer]
+                - 'button "Select approved_budget: INR 1,250,000" [ref=e5784] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5786] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-24" [ref=e5788] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,400,000" [ref=e5790] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5792] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,250,000" [ref=e5794] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,400,000" [ref=e5796] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-20" [ref=e5798] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5800] [cursor=pointer]'
+                - 'button "Select approved_budget: rejected" [ref=e5802] [cursor=pointer]'
+                - 'button "Select named_entity: Project Name" [ref=e5804] [cursor=pointer]'
+                - button "Select Project Name" [ref=e5806] [cursor=pointer]
+                - 'button "Select named_entity: Project Alpha Evidence Trial" [ref=e5808] [cursor=pointer]'
+                - button "Select Project Alpha Evidence Trial" [ref=e5810] [cursor=pointer]
+                - 'button "Select approved_budget: INR 1,250,000" [ref=e5812] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,400,000" [ref=e5814] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-20" [ref=e5816] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5818] [cursor=pointer]'
+                - 'button "Select approved_budget: rejected" [ref=e5820] [cursor=pointer]'
+                - 'button "Select named_entity: Project Name" [ref=e5822] [cursor=pointer]'
+                - 'button "Select named_entity: Project Alpha Evidence Trial" [ref=e5824] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,250,000" [ref=e5826] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,400,000" [ref=e5828] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-20" [ref=e5830] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5832] [cursor=pointer]'
+                - 'button "Select approved_budget: rejected" [ref=e5834] [cursor=pointer]'
+                - 'button "Select named_entity: Project Name" [ref=e5836] [cursor=pointer]'
+                - 'button "Select named_entity: Project Alpha Evidence Trial" [ref=e5838] [cursor=pointer]'
+                - 'button "Select named_entity: Project Name" [ref=e5840] [cursor=pointer]'
+                - button "Select Project Name" [ref=e5842] [cursor=pointer]
+                - 'button "Select named_entity: Project Alpha Evidence Trial" [ref=e5844] [cursor=pointer]'
+                - button "Select Project Alpha Evidence Trial" [ref=e5846] [cursor=pointer]
+                - 'button "Select approved_budget: INR 1,850,000" [ref=e5848] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5850] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-25" [ref=e5852] [cursor=pointer]'
+                - button "Select phase7_project_charter.pdf" [ref=e5854] [cursor=pointer]
+                - 'button "Select CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-ALPHA Project Name: Project Alpha Evidence Trial The approved project b" [ref=e5856] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,250,000" [ref=e5858] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,400,000" [ref=e5860] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-20" [ref=e5862] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5864] [cursor=pointer]'
+                - 'button "Select approved_budget: rejected" [ref=e5866] [cursor=pointer]'
+                - 'button "Select named_entity: Project Name" [ref=e5868] [cursor=pointer]'
+                - 'button "Select named_entity: Project Alpha Evidence Trial" [ref=e5870] [cursor=pointer]'
+                - button "Select phase7_project_charter_demo701.pdf" [ref=e5872] [cursor=pointer]
+                - 'button "Select CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-701 Project Name: Project Alpha Evidence Trial The approved project bud" [ref=e5874] [cursor=pointer]'
+                - button "Select phase7_revision_budget_conflict_demo701.txt" [ref=e5876] [cursor=pointer]
+                - button "Select CONFIDENTIAL INTERNAL REVISION NOTE" [ref=e5878] [cursor=pointer]
+                - 'button "Select Project ID: DEMO-701" [ref=e5880] [cursor=pointer]'
+                - 'button "Select Project Name: Project Alpha Evidence Trial" [ref=e5882] [cursor=pointer]'
+                - button "Select The approved project budget for Project DEMO-701 is INR 1,850,000." [ref=e5884] [cursor=pointer]
+                - 'button "Select Approval date: 2026-11-25." [ref=e5886] [cursor=pointer]'
+                - button "Select Project status is DRAFT." [ref=e5888] [cursor=pointer]
+                - 'button "Select approved_budget: INR 1,250,000" [ref=e5890] [cursor=pointer]'
+                - button "Select DEMO-701" [ref=e5892] [cursor=pointer]
+                - 'button "Select approved_budget: INR 1,400,000" [ref=e5894] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-20" [ref=e5896] [cursor=pointer]'
+                - 'button "Select project_identifier: DEMO-701" [ref=e5898] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5900] [cursor=pointer]'
+                - 'button "Select approved_budget: rejected" [ref=e5902] [cursor=pointer]'
+                - 'button "Select named_entity: Project Name" [ref=e5904] [cursor=pointer]'
+                - 'button "Select named_entity: Project Alpha Evidence Trial" [ref=e5906] [cursor=pointer]'
+                - 'button "Select project_identifier: DEMO-701" [ref=e5908] [cursor=pointer]'
+                - 'button "Select named_entity: Project Name" [ref=e5910] [cursor=pointer]'
+                - 'button "Select named_entity: Project Alpha Evidence Trial" [ref=e5912] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,850,000" [ref=e5914] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5916] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-25" [ref=e5918] [cursor=pointer]'
+                - 'button "Select Confirmed Conflict #1" [ref=e5920] [cursor=pointer]'
+                - 'button "Select Confirmed Conflict #2" [ref=e5922] [cursor=pointer]'
+                - 'button "Select Potential Conflict #3" [ref=e5924] [cursor=pointer]'
+                - button "Select synthetic_test_scan_p7.png" [ref=e5926] [cursor=pointer]
+                - 'button "Select Image format: PNG; dimensions: 300x100" [ref=e5928] [cursor=pointer]'
+                - button "Select phase7_project_charter_demo701.pdf" [ref=e5930] [cursor=pointer]
+                - 'button "Select CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-701 Project Name: Project Alpha Evidence Trial The approved project bud" [ref=e5932] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,250,000" [ref=e5934] [cursor=pointer]'
+                - 'button "Select approved_budget: INR 1,400,000" [ref=e5936] [cursor=pointer]'
+                - 'button "Select approval_date: 2026-11-20" [ref=e5938] [cursor=pointer]'
+                - 'button "Select project_identifier: DEMO-701" [ref=e5940] [cursor=pointer]'
+                - 'button "Select approved_budget: approved" [ref=e5942] [cursor=pointer]'
+                - 'button "Select approved_budget: rejected" [ref=e5944] [cursor=pointer]'
+                - 'button "Select named_entity: Project Name" [ref=e5946] [cursor=pointer]'
+                - 'button "Select named_entity: Project Alpha Evidence Trial" [ref=e5948] [cursor=pointer]'
+                - 'button "Select Confirmed Conflict #6" [ref=e5950] [cursor=pointer]'
+                - 'button "Select Confirmed Conflict #4" [ref=e5952] [cursor=pointer]'
+                - 'button "Select Potential Conflict #9" [ref=e5954] [cursor=pointer]'
+                - 'button "Select Potential Conflict #8" [ref=e5956] [cursor=pointer]'
+                - 'button "Select Confirmed Conflict #5" [ref=e5958] [cursor=pointer]'
+                - 'button "Select Confirmed Conflict #7" [ref=e5960] [cursor=pointer]'
+                - 'button "Select Potential Conflict #10" [ref=e5962] [cursor=pointer]'
+                - button "Select approval_date on 2026-11-24" [ref=e5964] [cursor=pointer]
+                - button "Select approval_date on 2026-11-20" [ref=e5966] [cursor=pointer]
+                - button "Select approval_date on 2026-11-20" [ref=e5968] [cursor=pointer]
+                - button "Select approval_date on 2026-11-20" [ref=e5970] [cursor=pointer]
+                - button "Select approval_date on 2026-11-25" [ref=e5972] [cursor=pointer]
+                - button "Select approval_date on 2026-11-20" [ref=e5974] [cursor=pointer]
+                - button "Select approval_date on 2026-11-20" [ref=e5976] [cursor=pointer]
+                - button "Select approval_date on 2026-11-25" [ref=e5978] [cursor=pointer]
+              - generic: Drag to rotate · right-drag to pan · scroll to zoom
+            - generic [ref=e3355]: Conflicting relationships are highlighted in red.
+          - complementary [ref=e3357]:
+            - generic [ref=e3359]:
+              - generic [ref=e3360]: ENTITY INSPECTOR
+              - heading "Select a node" [level=3] [ref=e5736]
+            - generic [ref=e5737]:
+              - strong [ref=e5741]: No node selected
+              - generic [ref=e5742]: Select a graph node to inspect its actual database identifiers and adjacent evidence-backed relationships.
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]: CERBERUS-X · LOCAL EVIDENCE INTELLIGENCE
+      - generic [ref=e167]: Local processing · no cloud inference

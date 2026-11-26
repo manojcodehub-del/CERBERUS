@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\manoj\\OneDrive\\Documents\\ChatGPT\\CERBERUS_X"
+      ],
+      "cwd": "C:\\Users\\manoj\\OneDrive\\Documents\\ChatGPT\\CERBERUS_X"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "github": {
+      "serverUrl": "https://api.githubcopilot.com/mcp/"
+    },
+    "google-developer-knowledge": {
+      "serverUrl": "https://developerknowledge.googleapis.com/mcp",
+      "authProviderType": "google_credentials"
+    }
+  }
+}

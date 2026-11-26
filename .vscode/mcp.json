@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "googleDeveloperKnowledgeApiKey",
+      "description": "Google Developer Knowledge API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\manoj\\OneDrive\\Documents\\ChatGPT\\CERBERUS_X"
+      ],
+      "cwd": "${workspaceFolder}"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "google-developer-knowledge": {
+      "type": "http",
+      "url": "https://developerknowledge.googleapis.com/mcp",
+      "headers": {
+        "X-Goog-Api-Key": "${input:googleDeveloperKnowledgeApiKey}"
+      }
+    }
+  }
+}

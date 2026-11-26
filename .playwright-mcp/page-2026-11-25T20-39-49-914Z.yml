@@ -1,0 +1,84 @@
+- generic [ref=e3]:
+  - complementary "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - link "CERBERUS-X EVIDENCE INTELLIGENCE" [ref=e6] [cursor=pointer]:
+        - /url: "#dashboard"
+        - generic [ref=e11]:
+          - text: CERBERUS-X
+          - generic [ref=e12]: EVIDENCE INTELLIGENCE
+      - button "Collapse navigation" [ref=e13] [cursor=pointer]
+    - generic [ref=e17]:
+      - text: COMMAND SYSTEM
+      - generic [ref=e18]: "08"
+    - generic [ref=e19]:
+      - generic [ref=e20]: Workspace
+      - link "Command overview" [ref=e21] [cursor=pointer]:
+        - /url: "#dashboard"
+      - link "Document explorer" [ref=e28] [cursor=pointer]:
+        - /url: "#documents"
+      - link "AI intelligence" [ref=e35] [cursor=pointer]:
+        - /url: "#intelligence"
+    - generic [ref=e49]:
+      - generic [ref=e50]: Analysis
+      - link "Contradiction centre" [active] [ref=e51] [cursor=pointer]:
+        - /url: "#contradictions"
+      - link "Knowledge graph" [ref=e55] [cursor=pointer]:
+        - /url: "#graph"
+      - link "Investigations" [ref=e62] [cursor=pointer]:
+        - /url: "#investigations"
+    - generic [ref=e69]:
+      - generic [ref=e70]: System
+      - link "Reliability & settings" [ref=e71] [cursor=pointer]:
+        - /url: "#reliability"
+    - generic [ref=e76]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: Local API connected
+        - generic [ref=e81]: connected · ready storage
+      - generic [ref=e82]: CERBERUS-X · PHASE 7
+  - generic [ref=e83]:
+    - banner [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]: Workspace
+        - strong [ref=e89]: Document explorer
+      - generic [ref=e90]:
+        - generic [ref=e91]: LOCAL MODE
+        - button "Check API status" [ref=e93] [cursor=pointer]
+        - generic [ref=e99]: API online
+    - main [ref=e542]:
+      - generic [ref=e544]:
+        - generic [ref=e545]:
+          - generic [ref=e546]:
+            - generic [ref=e547]: SOURCE MANAGEMENT
+            - heading "Document explorer" [level=1] [ref=e548]
+            - paragraph [ref=e549]: Validate and store local sources, run extraction when you choose, then inspect the evidence and its original location.
+          - button "Refresh documents" [ref=e550] [cursor=pointer]
+        - generic [ref=e557]:
+          - generic [ref=e558]:
+            - button "Choose documents to upload"
+            - strong [ref=e563]: Drop source documents here
+            - generic [ref=e564]: PDF · DOCX · TXT · CSV · XLSX · PNG · JPG · JPEG
+            - button "Browse files" [ref=e565] [cursor=pointer]
+          - generic [ref=e568]:
+            - generic [ref=e569]: Files are validated and kept in local storage. Upload does not start extraction.
+            - button "Upload selected" [disabled] [ref=e573]
+        - generic [ref=e578]:
+          - generic [ref=e579]:
+            - generic [ref=e580]:
+              - generic [ref=e581]:
+                - generic [ref=e582]: LOCAL LIBRARY
+                - heading "Stored documents 0" [level=3] [ref=e583]:
+                  - text: Stored documents
+                  - generic [ref=e584]: "0"
+              - textbox "Search documents" [ref=e589]:
+                - /placeholder: Filter sources
+            - generic [ref=e590]: Reading document metadata
+          - generic [ref=e593]:
+            - generic [ref=e595]:
+              - generic [ref=e596]: EXTRACTION PREVIEW
+              - heading "Select a document" [level=3] [ref=e597]
+            - generic [ref=e598]:
+              - strong [ref=e602]: Source details appear here
+              - generic [ref=e603]: Select any stored document to inspect its processing state and evidence records.
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]: CERBERUS-X · LOCAL EVIDENCE INTELLIGENCE
+      - generic [ref=e167]: Local processing · no cloud inference

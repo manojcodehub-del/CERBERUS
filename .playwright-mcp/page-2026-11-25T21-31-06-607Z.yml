@@ -1,0 +1,672 @@
+- generic [ref=e3]:
+  - complementary "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - link "CERBERUS-X EVIDENCE INTELLIGENCE" [ref=e6] [cursor=pointer]:
+        - /url: "#dashboard"
+        - generic [ref=e11]:
+          - text: CERBERUS-X
+          - generic [ref=e12]: EVIDENCE INTELLIGENCE
+      - button "Collapse navigation" [ref=e13] [cursor=pointer]
+    - generic [ref=e17]:
+      - text: COMMAND SYSTEM
+      - generic [ref=e18]: "08"
+    - generic [ref=e19]:
+      - generic [ref=e20]: Workspace
+      - link "Command overview" [ref=e21] [cursor=pointer]:
+        - /url: "#dashboard"
+      - link "Document explorer" [ref=e28] [cursor=pointer]:
+        - /url: "#documents"
+      - link "AI intelligence" [ref=e35] [cursor=pointer]:
+        - /url: "#intelligence"
+    - generic [ref=e49]:
+      - generic [ref=e50]: Analysis
+      - link "Contradiction centre" [ref=e51] [cursor=pointer]:
+        - /url: "#contradictions"
+      - link "Knowledge graph" [ref=e55] [cursor=pointer]:
+        - /url: "#graph"
+      - link "Investigations" [ref=e62] [cursor=pointer]:
+        - /url: "#investigations"
+    - generic [ref=e69]:
+      - generic [ref=e70]: System
+      - link "Reliability & settings" [ref=e71] [cursor=pointer]:
+        - /url: "#reliability"
+    - generic [ref=e76]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: Local API connected
+        - generic [ref=e81]: connected · ready storage
+      - generic [ref=e82]: CERBERUS-X · PHASE 7
+  - generic [ref=e83]:
+    - banner [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]: Workspace
+        - strong [ref=e89]: Knowledge graph
+      - generic [ref=e90]:
+        - generic [ref=e91]: LOCAL MODE
+        - button "Check API status" [ref=e93] [cursor=pointer]
+        - generic [ref=e99]: API online
+    - main [ref=e3065]:
+      - generic [ref=e3070]:
+        - generic [ref=e3071]:
+          - generic [ref=e3072]:
+            - generic [ref=e3073]: PERSISTED NETWORKX DATA
+            - heading "Knowledge graph" [level=1] [ref=e3074]
+            - paragraph [ref=e3075]: Explore actual document, evidence, claim, conflict, and entity records. Every displayed relationship comes from an evidence-backed API edge.
+          - button "Refresh graph" [ref=e3076] [cursor=pointer]
+        - generic [ref=e3082]:
+          - generic [ref=e3083]:
+            - generic [ref=e3084]: 117 nodes
+            - generic [ref=e3085]: 231 relationships
+          - generic [ref=e3086]:
+            - group "Graph rendering mode" [ref=e3087]:
+              - button "3D" [ref=e3088] [cursor=pointer]
+              - button "2D" [pressed] [ref=e3092] [cursor=pointer]
+            - button "Reset view" [ref=e3099] [cursor=pointer]
+        - generic [ref=e3103]:
+          - generic [ref=e3104]:
+            - generic [ref=e3105]:
+              - generic [ref=e3106]: Document
+              - generic [ref=e3108]: Claim
+              - generic [ref=e3110]: Evidence
+              - generic [ref=e3112]: Event
+              - generic [ref=e3114]: Conflict
+              - generic [ref=e3116]: Entity
+            - application [ref=e3369]:
+              - generic [ref=e3371]:
+                - generic:
+                  - generic:
+                    - img:
+                      - group "Edge from 1 to 2" [ref=e5091] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 3" [ref=e5094] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 4" [ref=e5097] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 5" [ref=e5100] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 6" [ref=e5103] [cursor=pointer]
+                    - img:
+                      - group "Edge from 7 to 8" [ref=e5106] [cursor=pointer]
+                    - img:
+                      - group "Edge from 9 to 10" [ref=e5109] [cursor=pointer]
+                    - img:
+                      - group "Edge from 11 to 12" [ref=e5112] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 14" [ref=e5115] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 15" [ref=e5118] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 16" [ref=e5121] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 17" [ref=e5124] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 18" [ref=e5127] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 19" [ref=e5130] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 20" [ref=e5133] [cursor=pointer]
+                    - img:
+                      - group "Edge from 20 to 4" [ref=e5136] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 21" [ref=e5139] [cursor=pointer]
+                    - img:
+                      - group "Edge from 21 to 4" [ref=e5142] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 22" [ref=e5145] [cursor=pointer]
+                    - img:
+                      - group "Edge from 22 to 5" [ref=e5148] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 23"
+                    - img:
+                      - group "Edge from 23 to 6" [ref=e5151] [cursor=pointer]
+                    - img:
+                      - group "Edge from 1 to 24" [ref=e5154] [cursor=pointer]
+                    - img:
+                      - group "Edge from 24 to 6" [ref=e5157] [cursor=pointer]
+                    - img:
+                      - group "Edge from 7 to 25" [ref=e5160] [cursor=pointer]
+                    - img:
+                      - group "Edge from 25 to 8" [ref=e5163] [cursor=pointer]
+                    - img:
+                      - group "Edge from 7 to 26" [ref=e5166] [cursor=pointer]
+                    - img:
+                      - group "Edge from 26 to 8" [ref=e5169] [cursor=pointer]
+                    - img:
+                      - group "Edge from 7 to 27" [ref=e5172] [cursor=pointer]
+                    - img:
+                      - group "Edge from 27 to 8" [ref=e5175] [cursor=pointer]
+                    - img:
+                      - group "Edge from 7 to 28" [ref=e5178] [cursor=pointer]
+                    - img:
+                      - group "Edge from 28 to 8" [ref=e5181] [cursor=pointer]
+                    - img:
+                      - group "Edge from 7 to 29"
+                    - img:
+                      - group "Edge from 29 to 8" [ref=e5184] [cursor=pointer]
+                    - img:
+                      - group "Edge from 7 to 30" [ref=e5187] [cursor=pointer]
+                    - img:
+                      - group "Edge from 30 to 8"
+                    - img:
+                      - group "Edge from 30 to 31" [ref=e5190] [cursor=pointer]
+                    - img:
+                      - group "Edge from 7 to 32" [ref=e5193] [cursor=pointer]
+                    - img:
+                      - group "Edge from 32 to 8" [ref=e5196] [cursor=pointer]
+                    - img:
+                      - group "Edge from 32 to 33" [ref=e5199] [cursor=pointer]
+                    - img:
+                      - group "Edge from 9 to 34" [ref=e5202] [cursor=pointer]
+                    - img:
+                      - group "Edge from 34 to 10" [ref=e5205] [cursor=pointer]
+                    - img:
+                      - group "Edge from 9 to 35" [ref=e5208] [cursor=pointer]
+                    - img:
+                      - group "Edge from 35 to 10" [ref=e5211] [cursor=pointer]
+                    - img:
+                      - group "Edge from 9 to 36" [ref=e5214] [cursor=pointer]
+                    - img:
+                      - group "Edge from 36 to 10" [ref=e5217] [cursor=pointer]
+                    - img:
+                      - group "Edge from 9 to 37" [ref=e5220] [cursor=pointer]
+                    - img:
+                      - group "Edge from 37 to 10" [ref=e5223] [cursor=pointer]
+                    - img:
+                      - group "Edge from 9 to 38" [ref=e5226] [cursor=pointer]
+                    - img:
+                      - group "Edge from 38 to 10" [ref=e5229] [cursor=pointer]
+                    - img:
+                      - group "Edge from 9 to 39" [ref=e5232] [cursor=pointer]
+                    - img:
+                      - group "Edge from 39 to 10" [ref=e5235] [cursor=pointer]
+                    - img:
+                      - group "Edge from 39 to 31" [ref=e5238] [cursor=pointer]
+                    - img:
+                      - group "Edge from 9 to 40" [ref=e5241] [cursor=pointer]
+                    - img:
+                      - group "Edge from 40 to 10" [ref=e5244] [cursor=pointer]
+                    - img:
+                      - group "Edge from 40 to 33" [ref=e5247] [cursor=pointer]
+                    - img:
+                      - group "Edge from 11 to 41" [ref=e5250] [cursor=pointer]
+                    - img:
+                      - group "Edge from 41 to 12" [ref=e5253] [cursor=pointer]
+                    - img:
+                      - group "Edge from 11 to 42" [ref=e5256] [cursor=pointer]
+                    - img:
+                      - group "Edge from 42 to 12" [ref=e5259] [cursor=pointer]
+                    - img:
+                      - group "Edge from 11 to 43" [ref=e5262] [cursor=pointer]
+                    - img:
+                      - group "Edge from 43 to 12" [ref=e5265] [cursor=pointer]
+                    - img:
+                      - group "Edge from 11 to 44"
+                    - img:
+                      - group "Edge from 44 to 12" [ref=e5268] [cursor=pointer]
+                    - img:
+                      - group "Edge from 11 to 45" [ref=e5271] [cursor=pointer]
+                    - img:
+                      - group "Edge from 45 to 12"
+                    - img:
+                      - group "Edge from 11 to 46" [ref=e5274] [cursor=pointer]
+                    - img:
+                      - group "Edge from 46 to 12" [ref=e5277] [cursor=pointer]
+                    - img:
+                      - group "Edge from 46 to 31" [ref=e5280] [cursor=pointer]
+                    - img:
+                      - group "Edge from 11 to 47" [ref=e5283] [cursor=pointer]
+                    - img:
+                      - group "Edge from 47 to 12" [ref=e5286] [cursor=pointer]
+                    - img:
+                      - group "Edge from 47 to 33" [ref=e5289] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 48" [ref=e5292] [cursor=pointer]
+                    - img:
+                      - group "Edge from 48 to 16" [ref=e5295] [cursor=pointer]
+                    - img:
+                      - group "Edge from 48 to 49" [ref=e5298] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 50" [ref=e5301] [cursor=pointer]
+                    - img:
+                      - group "Edge from 50 to 16" [ref=e5304] [cursor=pointer]
+                    - img:
+                      - group "Edge from 50 to 51" [ref=e5307] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 52" [ref=e5310] [cursor=pointer]
+                    - img:
+                      - group "Edge from 52 to 17" [ref=e5313] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 53" [ref=e5316] [cursor=pointer]
+                    - img:
+                      - group "Edge from 53 to 17" [ref=e5319] [cursor=pointer]
+                    - img:
+                      - group "Edge from 13 to 54" [ref=e5322] [cursor=pointer]
+                    - img:
+                      - group "Edge from 54 to 18" [ref=e5325] [cursor=pointer]
+                    - img:
+                      - group "Edge from 55 to 56" [ref=e5328] [cursor=pointer]
+                    - img:
+                      - group "Edge from 55 to 57" [ref=e5331] [cursor=pointer]
+                    - img:
+                      - group "Edge from 57 to 56" [ref=e5334] [cursor=pointer]
+                    - img:
+                      - group "Edge from 55 to 58" [ref=e5337] [cursor=pointer]
+                    - img:
+                      - group "Edge from 58 to 56" [ref=e5340] [cursor=pointer]
+                    - img:
+                      - group "Edge from 55 to 59" [ref=e5343] [cursor=pointer]
+                    - img:
+                      - group "Edge from 59 to 56" [ref=e5346] [cursor=pointer]
+                    - img:
+                      - group "Edge from 55 to 60" [ref=e5349] [cursor=pointer]
+                    - img:
+                      - group "Edge from 60 to 56" [ref=e5352] [cursor=pointer]
+                    - img:
+                      - group "Edge from 55 to 61" [ref=e5355] [cursor=pointer]
+                    - img:
+                      - group "Edge from 61 to 56" [ref=e5358] [cursor=pointer]
+                    - img:
+                      - group "Edge from 55 to 62" [ref=e5361] [cursor=pointer]
+                    - img:
+                      - group "Edge from 62 to 56" [ref=e5364] [cursor=pointer]
+                    - img:
+                      - group "Edge from 62 to 31" [ref=e5367] [cursor=pointer]
+                    - img:
+                      - group "Edge from 55 to 63" [ref=e5370] [cursor=pointer]
+                    - img:
+                      - group "Edge from 63 to 56" [ref=e5373] [cursor=pointer]
+                    - img:
+                      - group "Edge from 63 to 33" [ref=e5376] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 65" [ref=e5379] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 67" [ref=e5382] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 68" [ref=e5385] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 69" [ref=e5388] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 70" [ref=e5391] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 71" [ref=e5394] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 72" [ref=e5397] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 73" [ref=e5400] [cursor=pointer]
+                    - img:
+                      - group "Edge from 73 to 65" [ref=e5403] [cursor=pointer]
+                    - img:
+                      - group "Edge from 73 to 74" [ref=e5406] [cursor=pointer]
+                    - img:
+                      - group "Edge from 74 to 64" [ref=e5409] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 75"
+                    - img:
+                      - group "Edge from 75 to 65" [ref=e5412] [cursor=pointer]
+                    - img:
+                      - group "Edge from 75 to 74" [ref=e5415] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 76" [ref=e5418] [cursor=pointer]
+                    - img:
+                      - group "Edge from 76 to 65"
+                    - img:
+                      - group "Edge from 76 to 74" [ref=e5421] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 77" [ref=e5424] [cursor=pointer]
+                    - img:
+                      - group "Edge from 77 to 65" [ref=e5427] [cursor=pointer]
+                    - img:
+                      - group "Edge from 77 to 74" [ref=e5430] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 78" [ref=e5433] [cursor=pointer]
+                    - img:
+                      - group "Edge from 78 to 65" [ref=e5436] [cursor=pointer]
+                    - img:
+                      - group "Edge from 78 to 74" [ref=e5439] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 79" [ref=e5442] [cursor=pointer]
+                    - img:
+                      - group "Edge from 79 to 65" [ref=e5445] [cursor=pointer]
+                    - img:
+                      - group "Edge from 79 to 74" [ref=e5448] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 80" [ref=e5451] [cursor=pointer]
+                    - img:
+                      - group "Edge from 80 to 65" [ref=e5454] [cursor=pointer]
+                    - img:
+                      - group "Edge from 80 to 74" [ref=e5457] [cursor=pointer]
+                    - img:
+                      - group "Edge from 80 to 31" [ref=e5460] [cursor=pointer]
+                    - img:
+                      - group "Edge from 64 to 81" [ref=e5463] [cursor=pointer]
+                    - img:
+                      - group "Edge from 81 to 65" [ref=e5466] [cursor=pointer]
+                    - img:
+                      - group "Edge from 81 to 74" [ref=e5469] [cursor=pointer]
+                    - img:
+                      - group "Edge from 81 to 33" [ref=e5472] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 82" [ref=e5475] [cursor=pointer]
+                    - img:
+                      - group "Edge from 82 to 68" [ref=e5478] [cursor=pointer]
+                    - img:
+                      - group "Edge from 82 to 74" [ref=e5481] [cursor=pointer]
+                    - img:
+                      - group "Edge from 74 to 66" [ref=e5484] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 83" [ref=e5487] [cursor=pointer]
+                    - img:
+                      - group "Edge from 83 to 69" [ref=e5490] [cursor=pointer]
+                    - img:
+                      - group "Edge from 83 to 49" [ref=e5493] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 84" [ref=e5496] [cursor=pointer]
+                    - img:
+                      - group "Edge from 84 to 69" [ref=e5499] [cursor=pointer]
+                    - img:
+                      - group "Edge from 84 to 51"
+                    - img:
+                      - group "Edge from 66 to 85" [ref=e5502] [cursor=pointer]
+                    - img:
+                      - group "Edge from 85 to 70" [ref=e5505] [cursor=pointer]
+                    - img:
+                      - group "Edge from 85 to 74"
+                    - img:
+                      - group "Edge from 74 to 66" [ref=e5508] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 86" [ref=e5511] [cursor=pointer]
+                    - img:
+                      - group "Edge from 86 to 70" [ref=e5514] [cursor=pointer]
+                    - img:
+                      - group "Edge from 86 to 74" [ref=e5517] [cursor=pointer]
+                    - img:
+                      - group "Edge from 66 to 87" [ref=e5520] [cursor=pointer]
+                    - img:
+                      - group "Edge from 87 to 71" [ref=e5523] [cursor=pointer]
+                    - img:
+                      - group "Edge from 73 to 88" [ref=e5526] [cursor=pointer]
+                    - img:
+                      - group "Edge from 85 to 88" [ref=e5529] [cursor=pointer]
+                    - img:
+                      - group "Edge from 73 to 85" [ref=e5532] [cursor=pointer]
+                    - img:
+                      - group "Edge from 75 to 89" [ref=e5535] [cursor=pointer]
+                    - img:
+                      - group "Edge from 85 to 89" [ref=e5538] [cursor=pointer]
+                    - img:
+                      - group "Edge from 75 to 85" [ref=e5541] [cursor=pointer]
+                    - img:
+                      - group "Edge from 79 to 90"
+                    - img:
+                      - group "Edge from 86 to 90" [ref=e5544] [cursor=pointer]
+                    - img:
+                      - group "Edge from 79 to 86" [ref=e5547] [cursor=pointer]
+                    - img:
+                      - group "Edge from 91 to 92" [ref=e5550] [cursor=pointer]
+                    - img:
+                      - group "Edge from 93 to 94" [ref=e5553] [cursor=pointer]
+                    - img:
+                      - group "Edge from 93 to 95" [ref=e5556] [cursor=pointer]
+                    - img:
+                      - group "Edge from 95 to 94" [ref=e5559] [cursor=pointer]
+                    - img:
+                      - group "Edge from 95 to 74" [ref=e5562] [cursor=pointer]
+                    - img:
+                      - group "Edge from 74 to 93" [ref=e5565] [cursor=pointer]
+                    - img:
+                      - group "Edge from 93 to 96" [ref=e5568] [cursor=pointer]
+                    - img:
+                      - group "Edge from 96 to 94" [ref=e5571] [cursor=pointer]
+                    - img:
+                      - group "Edge from 96 to 74"
+                    - img:
+                      - group "Edge from 93 to 97" [ref=e5574] [cursor=pointer]
+                    - img:
+                      - group "Edge from 97 to 94" [ref=e5577] [cursor=pointer]
+                    - img:
+                      - group "Edge from 97 to 74" [ref=e5580] [cursor=pointer]
+                    - img:
+                      - group "Edge from 93 to 98" [ref=e5583] [cursor=pointer]
+                    - img:
+                      - group "Edge from 98 to 94" [ref=e5586] [cursor=pointer]
+                    - img:
+                      - group "Edge from 98 to 74" [ref=e5589] [cursor=pointer]
+                    - img:
+                      - group "Edge from 93 to 99" [ref=e5592] [cursor=pointer]
+                    - img:
+                      - group "Edge from 99 to 94" [ref=e5595] [cursor=pointer]
+                    - img:
+                      - group "Edge from 99 to 74" [ref=e5598] [cursor=pointer]
+                    - img:
+                      - group "Edge from 93 to 100" [ref=e5601] [cursor=pointer]
+                    - img:
+                      - group "Edge from 100 to 94" [ref=e5604] [cursor=pointer]
+                    - img:
+                      - group "Edge from 100 to 74" [ref=e5607] [cursor=pointer]
+                    - img:
+                      - group "Edge from 93 to 101" [ref=e5610] [cursor=pointer]
+                    - img:
+                      - group "Edge from 101 to 94" [ref=e5613] [cursor=pointer]
+                    - img:
+                      - group "Edge from 101 to 74" [ref=e5616] [cursor=pointer]
+                    - img:
+                      - group "Edge from 101 to 31" [ref=e5619] [cursor=pointer]
+                    - img:
+                      - group "Edge from 93 to 102" [ref=e5622] [cursor=pointer]
+                    - img:
+                      - group "Edge from 102 to 94" [ref=e5625] [cursor=pointer]
+                    - img:
+                      - group "Edge from 102 to 74" [ref=e5628] [cursor=pointer]
+                    - img:
+                      - group "Edge from 102 to 33" [ref=e5631] [cursor=pointer]
+                    - img:
+                      - group "Edge from 73 to 103" [ref=e5634] [cursor=pointer]
+                    - img:
+                      - group "Edge from 96 to 103" [ref=e5637] [cursor=pointer]
+                    - img:
+                      - group "Edge from 73 to 96" [ref=e5640] [cursor=pointer]
+                    - img:
+                      - group "Edge from 75 to 104" [ref=e5643] [cursor=pointer]
+                    - img:
+                      - group "Edge from 95 to 104" [ref=e5646] [cursor=pointer]
+                    - img:
+                      - group "Edge from 75 to 95" [ref=e5649] [cursor=pointer]
+                    - img:
+                      - group "Edge from 78 to 105" [ref=e5652] [cursor=pointer]
+                    - img:
+                      - group "Edge from 100 to 105" [ref=e5655] [cursor=pointer]
+                    - img:
+                      - group "Edge from 78 to 100"
+                    - img:
+                      - group "Edge from 79 to 106" [ref=e5658] [cursor=pointer]
+                    - img:
+                      - group "Edge from 99 to 106" [ref=e5661] [cursor=pointer]
+                    - img:
+                      - group "Edge from 79 to 99" [ref=e5664] [cursor=pointer]
+                    - img:
+                      - group "Edge from 85 to 107"
+                    - img:
+                      - group "Edge from 95 to 107" [ref=e5667] [cursor=pointer]
+                    - img:
+                      - group "Edge from 85 to 95" [ref=e5670] [cursor=pointer]
+                    - img:
+                      - group "Edge from 85 to 108" [ref=e5673] [cursor=pointer]
+                    - img:
+                      - group "Edge from 96 to 108" [ref=e5676] [cursor=pointer]
+                    - img:
+                      - group "Edge from 85 to 96"
+                    - img:
+                      - group "Edge from 86 to 109" [ref=e5679] [cursor=pointer]
+                    - img:
+                      - group "Edge from 100 to 109" [ref=e5682] [cursor=pointer]
+                    - img:
+                      - group "Edge from 86 to 100" [ref=e5685] [cursor=pointer]
+                    - img:
+                      - group "Edge from 22 to 110"
+                    - img:
+                      - group "Edge from 110 to 5" [ref=e5688] [cursor=pointer]
+                    - img:
+                      - group "Edge from 27 to 111" [ref=e5691] [cursor=pointer]
+                    - img:
+                      - group "Edge from 111 to 8" [ref=e5694] [cursor=pointer]
+                    - img:
+                      - group "Edge from 36 to 112" [ref=e5697] [cursor=pointer]
+                    - img:
+                      - group "Edge from 112 to 10" [ref=e5700] [cursor=pointer]
+                    - img:
+                      - group "Edge from 43 to 113" [ref=e5703] [cursor=pointer]
+                    - img:
+                      - group "Edge from 113 to 12" [ref=e5706] [cursor=pointer]
+                    - img:
+                      - group "Edge from 54 to 114" [ref=e5709] [cursor=pointer]
+                    - img:
+                      - group "Edge from 114 to 18" [ref=e5712] [cursor=pointer]
+                    - img:
+                      - group "Edge from 59 to 115" [ref=e5715] [cursor=pointer]
+                    - img:
+                      - group "Edge from 115 to 56" [ref=e5718] [cursor=pointer]
+                    - img:
+                      - group "Edge from 76 to 116" [ref=e5721] [cursor=pointer]
+                    - img:
+                      - group "Edge from 116 to 65" [ref=e5724] [cursor=pointer]
+                    - img:
+                      - group "Edge from 87 to 117" [ref=e5727] [cursor=pointer]
+                    - img:
+                      - group "Edge from 117 to 71" [ref=e5730] [cursor=pointer]
+                    - img:
+                      - group "Edge from 97 to 116" [ref=e5733] [cursor=pointer]
+                    - img:
+                      - group "Edge from 116 to 94"
+                  - generic:
+                    - group [ref=e4017]: phase4_demo_synthetic_budget.txt
+                    - group [ref=e4020]: SYNTHETIC DEMONSTRATION DATA — invented values for local CERBERUS-X testing only; this is not a real project record.
+                    - group [ref=e4023]: "Project ID: DEMO-ALPHA"
+                    - group [ref=e4026]: The approved project budget for Project DEMO-ALPHA is INR 1,250,000.
+                    - group [ref=e4029]: "Approval date: 2026-11-24."
+                    - group [ref=e4032]: The vendor quotation is INR 1,400,000 and is not the approved budget.
+                    - group [ref=e4035]: phase7_project_charter.pdf
+                    - group [ref=e4038]: "CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-ALPHA Project Name: Project Alpha Evidence Trial The approved project b"
+                    - group [ref=e4041]: phase7_project_charter.pdf
+                    - group [ref=e4044]: "CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-ALPHA Project Name: Project Alpha Evidence Trial The approved project b"
+                    - group [ref=e4047]: phase7_project_charter.pdf
+                    - group [ref=e4050]: "CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-ALPHA Project Name: Project Alpha Evidence Trial The approved project b"
+                    - group [ref=e4053]: phase7_revision_budget_conflict.txt
+                    - group [ref=e4056]: CONFIDENTIAL INTERNAL REVISION NOTE
+                    - group [ref=e4059]: "Project ID: DEMO-ALPHA"
+                    - group [ref=e4062]: "Project Name: Project Alpha Evidence Trial"
+                    - group [ref=e4065]: The approved project budget for Project DEMO-ALPHA is INR 1,850,000.
+                    - group [ref=e4068]: "Approval date: 2026-11-25."
+                    - group [ref=e4071]: Project status is DRAFT.
+                    - group [ref=e4074]: "approved_budget: INR 1,250,000"
+                    - group [ref=e4077]: "approved_budget: approved"
+                    - group [ref=e4080]: "approval_date: 2026-11-24"
+                    - group [ref=e4083]: "approved_budget: INR 1,400,000"
+                    - group [ref=e4086]: "approved_budget: approved"
+                    - group [ref=e4089]: "approved_budget: INR 1,250,000"
+                    - group [ref=e4092]: "approved_budget: INR 1,400,000"
+                    - group [ref=e4095]: "approval_date: 2026-11-20"
+                    - group [ref=e4098]: "approved_budget: approved"
+                    - group [ref=e4101]: "approved_budget: rejected"
+                    - group [ref=e4104]: "named_entity: Project Name"
+                    - group [ref=e4107]: Project Name
+                    - group [ref=e4110]: "named_entity: Project Alpha Evidence Trial"
+                    - group [ref=e4113]: Project Alpha Evidence Trial
+                    - group [ref=e4116]: "approved_budget: INR 1,250,000"
+                    - group [ref=e4119]: "approved_budget: INR 1,400,000"
+                    - group [ref=e4122]: "approval_date: 2026-11-20"
+                    - group [ref=e4125]: "approved_budget: approved"
+                    - group [ref=e4128]: "approved_budget: rejected"
+                    - group [ref=e4131]: "named_entity: Project Name"
+                    - group [ref=e4134]: "named_entity: Project Alpha Evidence Trial"
+                    - group [ref=e4137]: "approved_budget: INR 1,250,000"
+                    - group [ref=e4140]: "approved_budget: INR 1,400,000"
+                    - group [ref=e4143]: "approval_date: 2026-11-20"
+                    - group [ref=e4146]: "approved_budget: approved"
+                    - group [ref=e4149]: "approved_budget: rejected"
+                    - group [ref=e4152]: "named_entity: Project Name"
+                    - group [ref=e4155]: "named_entity: Project Alpha Evidence Trial"
+                    - group [ref=e4158]: "named_entity: Project Name"
+                    - group [ref=e4161]: Project Name
+                    - group [ref=e4164]: "named_entity: Project Alpha Evidence Trial"
+                    - group [ref=e4167]: Project Alpha Evidence Trial
+                    - group [ref=e4170]: "approved_budget: INR 1,850,000"
+                    - group [ref=e4173]: "approved_budget: approved"
+                    - group [ref=e4176]: "approval_date: 2026-11-25"
+                    - group [ref=e4179]: phase7_project_charter.pdf
+                    - group [ref=e4182]: "CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-ALPHA Project Name: Project Alpha Evidence Trial The approved project b"
+                    - group [ref=e4185]: "approved_budget: INR 1,250,000"
+                    - group [ref=e4188]: "approved_budget: INR 1,400,000"
+                    - group [ref=e4191]: "approval_date: 2026-11-20"
+                    - group [ref=e4194]: "approved_budget: approved"
+                    - group [ref=e4197]: "approved_budget: rejected"
+                    - group [ref=e4200]: "named_entity: Project Name"
+                    - group [ref=e4203]: "named_entity: Project Alpha Evidence Trial"
+                    - group [ref=e4206]: phase7_project_charter_demo701.pdf
+                    - group [ref=e4209]: "CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-701 Project Name: Project Alpha Evidence Trial The approved project bud"
+                    - group [ref=e4212]: phase7_revision_budget_conflict_demo701.txt
+                    - group [ref=e4215]: CONFIDENTIAL INTERNAL REVISION NOTE
+                    - group [ref=e4218]: "Project ID: DEMO-701"
+                    - group [ref=e4221]: "Project Name: Project Alpha Evidence Trial"
+                    - group [ref=e4224]: The approved project budget for Project DEMO-701 is INR 1,850,000.
+                    - group [ref=e4227]: "Approval date: 2026-11-25."
+                    - group [ref=e4230]: Project status is DRAFT.
+                    - group [ref=e4233]: "approved_budget: INR 1,250,000"
+                    - group [ref=e4236]: DEMO-701
+                    - group [ref=e4239]: "approved_budget: INR 1,400,000"
+                    - group [ref=e4242]: "approval_date: 2026-11-20"
+                    - group [ref=e4245]: "project_identifier: DEMO-701"
+                    - group [ref=e4248]: "approved_budget: approved"
+                    - group [ref=e4251]: "approved_budget: rejected"
+                    - group [ref=e4254]: "named_entity: Project Name"
+                    - group [ref=e4257]: "named_entity: Project Alpha Evidence Trial"
+                    - group [ref=e4260]: "project_identifier: DEMO-701"
+                    - group [ref=e4263]: "named_entity: Project Name"
+                    - group [ref=e4266]: "named_entity: Project Alpha Evidence Trial"
+                    - group [ref=e4269]: "approved_budget: INR 1,850,000"
+                    - group [ref=e4272]: "approved_budget: approved"
+                    - group [ref=e4275]: "approval_date: 2026-11-25"
+                    - group [ref=e4278]: "Confirmed Conflict #1"
+                    - group [ref=e4281]: "Confirmed Conflict #2"
+                    - group [ref=e4284]: "Potential Conflict #3"
+                    - group [ref=e4287]: synthetic_test_scan_p7.png
+                    - group [ref=e4290]: "Image format: PNG; dimensions: 300x100"
+                    - group [ref=e4293]: phase7_project_charter_demo701.pdf
+                    - group [ref=e4296]: "CERBERUS-X DEMONSTRATION RECORD Project ID: DEMO-701 Project Name: Project Alpha Evidence Trial The approved project bud"
+                    - group [ref=e4299]: "approved_budget: INR 1,250,000"
+                    - group [ref=e4302]: "approved_budget: INR 1,400,000"
+                    - group [ref=e4305]: "approval_date: 2026-11-20"
+                    - group [ref=e4308]: "project_identifier: DEMO-701"
+                    - group [ref=e4311]: "approved_budget: approved"
+                    - group [ref=e4314]: "approved_budget: rejected"
+                    - group [ref=e4317]: "named_entity: Project Name"
+                    - group [ref=e4320]: "named_entity: Project Alpha Evidence Trial"
+                    - group [ref=e4323]: "Confirmed Conflict #6"
+                    - group [ref=e4326]: "Confirmed Conflict #4"
+                    - group [ref=e4329]: "Potential Conflict #9"
+                    - group [ref=e4332]: "Potential Conflict #8"
+                    - group [ref=e4335]: "Confirmed Conflict #5"
+                    - group [ref=e4338]: "Confirmed Conflict #7"
+                    - group [ref=e4341]: "Potential Conflict #10"
+                    - group [ref=e4344]: approval_date on 2026-11-24
+                    - group [ref=e4347]: approval_date on 2026-11-20
+                    - group [ref=e4350]: approval_date on 2026-11-20
+                    - group [ref=e4353]: approval_date on 2026-11-20
+                    - group [ref=e4356]: approval_date on 2026-11-25
+                    - group [ref=e4359]: approval_date on 2026-11-20
+                    - group [ref=e4362]: approval_date on 2026-11-20
+                    - group [ref=e4365]: approval_date on 2026-11-25
+              - generic "Control Panel" [ref=e4368]:
+                - button "Zoom In" [ref=e4369] [cursor=pointer]
+                - button "Zoom Out" [ref=e4372] [cursor=pointer]
+                - button "Fit View" [ref=e4375] [cursor=pointer]
+                - button "Toggle Interactivity" [ref=e4378] [cursor=pointer]
+            - generic [ref=e3355]: Conflicting relationships are highlighted in red.
+          - complementary [ref=e3357]:
+            - generic [ref=e3359]:
+              - generic [ref=e3360]: ENTITY INSPECTOR
+              - heading "Select a node" [level=3] [ref=e5736]
+            - generic [ref=e5737]:
+              - strong [ref=e5741]: No node selected
+              - generic [ref=e5742]: Select a graph node to inspect its actual database identifiers and adjacent evidence-backed relationships.
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]: CERBERUS-X · LOCAL EVIDENCE INTELLIGENCE
+      - generic [ref=e167]: Local processing · no cloud inference

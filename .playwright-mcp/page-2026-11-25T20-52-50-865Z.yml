@@ -1,0 +1,72 @@
+- generic [ref=e3]:
+  - complementary "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - link "CERBERUS-X EVIDENCE INTELLIGENCE" [ref=e6] [cursor=pointer]:
+        - /url: "#dashboard"
+        - generic [ref=e11]:
+          - text: CERBERUS-X
+          - generic [ref=e12]: EVIDENCE INTELLIGENCE
+      - button "Collapse navigation" [ref=e13] [cursor=pointer]
+    - generic [ref=e17]:
+      - text: COMMAND SYSTEM
+      - generic [ref=e18]: "08"
+    - generic [ref=e19]:
+      - generic [ref=e20]: Workspace
+      - link "Command overview" [ref=e21] [cursor=pointer]:
+        - /url: "#dashboard"
+      - link "Document explorer" [ref=e28] [cursor=pointer]:
+        - /url: "#documents"
+      - link "AI intelligence" [ref=e35] [cursor=pointer]:
+        - /url: "#intelligence"
+    - generic [ref=e49]:
+      - generic [ref=e50]: Analysis
+      - link "Contradiction centre" [ref=e51] [cursor=pointer]:
+        - /url: "#contradictions"
+      - link "Knowledge graph" [ref=e55] [cursor=pointer]:
+        - /url: "#graph"
+      - link "Investigations" [ref=e62] [cursor=pointer]:
+        - /url: "#investigations"
+    - generic [ref=e69]:
+      - generic [ref=e70]: System
+      - link "Reliability & settings" [ref=e71] [cursor=pointer]:
+        - /url: "#reliability"
+    - generic [ref=e76]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: Local API connected
+        - generic [ref=e81]: connected · ready storage
+      - generic [ref=e82]: CERBERUS-X · PHASE 7
+  - generic [ref=e83]:
+    - banner [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]: Workspace
+        - strong [ref=e89]: Command overview
+      - generic [ref=e90]:
+        - generic [ref=e91]: LOCAL MODE
+        - button "Check API status" [ref=e93] [cursor=pointer]
+        - generic [ref=e99]: API online
+    - main [ref=e2336]:
+      - generic [ref=e2338]:
+        - generic [ref=e2339]:
+          - generic [ref=e2340]:
+            - generic [ref=e2341]: CERBERUS-X / EVIDENCE INTELLIGENCE
+            - heading [level=1] [ref=e2343]:
+              - text: Local evidence.
+              - emphasis [ref=e2344]: Clear decisions.
+            - paragraph [ref=e2345]: One workspace for document ingestion, grounded answers, conflict review, and source traceability.
+            - generic [ref=e2346]:
+              - button "Explore documents" [ref=e2347] [cursor=pointer]
+              - button "Ask local AI" [ref=e2350] [cursor=pointer]
+          - generic [ref=e2363]:
+            - generic "Decorative 3D holographic intelligence core and projector" [ref=e2364]: LOCAL INTELLIGENCE CORE
+            - generic [ref=e2370]:
+              - text: LOCAL MODEL
+              - strong [ref=e2371]: Checking configuration
+        - generic [ref=e2372]:
+          - generic [ref=e2373]:
+            - generic [ref=e2374]: LIVE SNAPSHOT
+            - heading "System overview" [level=2] [ref=e2375]
+          - button "Refresh dashboard" [ref=e2376] [cursor=pointer]
+        - generic [ref=e2382]: Loading local data
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]: CERBERUS-X · LOCAL EVIDENCE INTELLIGENCE
+      - generic [ref=e167]: Local processing · no cloud inference

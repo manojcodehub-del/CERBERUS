@@ -1,0 +1,183 @@
+- generic [ref=e3]:
+  - complementary "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - link "CERBERUS-X EVIDENCE INTELLIGENCE" [ref=e6] [cursor=pointer]:
+        - /url: "#dashboard"
+        - generic [ref=e11]:
+          - text: CERBERUS-X
+          - generic [ref=e12]: EVIDENCE INTELLIGENCE
+      - button "Collapse navigation" [ref=e13] [cursor=pointer]
+    - generic [ref=e17]:
+      - text: COMMAND SYSTEM
+      - generic [ref=e18]: "08"
+    - generic [ref=e19]:
+      - generic [ref=e20]: Workspace
+      - link "Command overview" [ref=e21] [cursor=pointer]:
+        - /url: "#dashboard"
+      - link "Document explorer" [ref=e28] [cursor=pointer]:
+        - /url: "#documents"
+      - link "AI intelligence" [ref=e35] [cursor=pointer]:
+        - /url: "#intelligence"
+    - generic [ref=e49]:
+      - generic [ref=e50]: Analysis
+      - link "Contradiction centre" [ref=e51] [cursor=pointer]:
+        - /url: "#contradictions"
+      - link "Knowledge graph" [ref=e55] [cursor=pointer]:
+        - /url: "#graph"
+      - link "Investigations" [ref=e62] [cursor=pointer]:
+        - /url: "#investigations"
+    - generic [ref=e69]:
+      - generic [ref=e70]: System
+      - link "Reliability & settings" [ref=e71] [cursor=pointer]:
+        - /url: "#reliability"
+    - generic [ref=e76]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: Local API connected
+        - generic [ref=e81]: connected · ready storage
+      - generic [ref=e82]: CERBERUS-X · PHASE 7
+  - generic [ref=e83]:
+    - banner [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]: Workspace
+        - strong [ref=e89]: Document explorer
+      - generic [ref=e90]:
+        - generic [ref=e91]: LOCAL MODE
+        - button "Check API status" [ref=e93] [cursor=pointer]
+        - generic [ref=e99]: API online
+    - main [ref=e1352]:
+      - generic [ref=e1354]:
+        - generic [ref=e1355]:
+          - generic [ref=e1356]:
+            - generic [ref=e1357]: SOURCE MANAGEMENT
+            - heading "Document explorer" [level=1] [ref=e1358]
+            - paragraph [ref=e1359]: Validate and store local sources, run extraction when you choose, then inspect the evidence and its original location.
+          - button "Refresh documents" [ref=e1360] [cursor=pointer]
+        - generic [ref=e1367]:
+          - generic [ref=e1368]:
+            - button "Choose documents to upload"
+            - strong [ref=e1373]: Drop source documents here
+            - generic [ref=e1374]: PDF · DOCX · TXT · CSV · XLSX · PNG · JPG · JPEG
+            - button "Browse files" [ref=e1375] [cursor=pointer]
+          - generic [ref=e1378]:
+            - generic [ref=e1379]: Files are validated and kept in local storage. Upload does not start extraction.
+            - button "Upload selected" [disabled] [ref=e1383]
+        - generic [ref=e1388]:
+          - generic [ref=e1389]:
+            - generic [ref=e1390]:
+              - generic [ref=e1391]:
+                - generic [ref=e1392]: LOCAL LIBRARY
+                - heading "Stored documents 10" [level=3] [ref=e1393]:
+                  - text: Stored documents
+                  - generic [ref=e1394]: "10"
+              - textbox "Search documents" [ref=e1399]:
+                - /placeholder: Filter sources
+            - generic [ref=e1400]:
+              - article [ref=e1401]:
+                - button "phase7_project_charter_demo701.pdf .PDF · 1.1 KB · 11/25/2026 COMPLETED" [ref=e1402] [cursor=pointer]:
+                  - generic [ref=e1407]:
+                    - strong [ref=e1408]: phase7_project_charter_demo701.pdf
+                    - generic [ref=e1409]: .PDF · 1.1 KB · 11/25/2026
+                  - generic [ref=e1410]: COMPLETED
+                - generic [ref=e1414]:
+                  - button "Process" [disabled] [ref=e1415]
+                  - button "Index" [ref=e1416] [cursor=pointer]
+                  - button "Delete phase7_project_charter_demo701.pdf" [ref=e1421] [cursor=pointer]
+              - article [ref=e1425]:
+                - button "synthetic_test_scan_p7.png .PNG · 1.6 KB · 11/25/2026 OCR UNAVAILABLE" [ref=e1426] [cursor=pointer]:
+                  - generic [ref=e1431]:
+                    - strong [ref=e1432]: synthetic_test_scan_p7.png
+                    - generic [ref=e1433]: .PNG · 1.6 KB · 11/25/2026
+                  - generic [ref=e1434]: OCR UNAVAILABLE
+                - generic [ref=e1444]:
+                  - button "Process" [ref=e1445] [cursor=pointer]
+                  - button "Delete synthetic_test_scan_p7.png" [ref=e1446] [cursor=pointer]
+              - article [ref=e1450]:
+                - button "phase7_revision_budget_conflict_demo701.txt .TXT · 220 B · 11/25/2026 COMPLETED" [ref=e1451] [cursor=pointer]:
+                  - generic [ref=e1456]:
+                    - strong [ref=e1457]: phase7_revision_budget_conflict_demo701.txt
+                    - generic [ref=e1458]: .TXT · 220 B · 11/25/2026
+                  - generic [ref=e1459]: COMPLETED
+                - generic [ref=e1463]:
+                  - button "Process" [disabled] [ref=e1464]
+                  - button "Index" [ref=e1465] [cursor=pointer]
+                  - button "Delete phase7_revision_budget_conflict_demo701.txt" [ref=e1470] [cursor=pointer]
+              - article [ref=e1474]:
+                - button "phase7_project_charter_demo701.pdf .PDF · 1.1 KB · 11/25/2026 COMPLETED" [ref=e1475] [cursor=pointer]:
+                  - generic [ref=e1480]:
+                    - strong [ref=e1481]: phase7_project_charter_demo701.pdf
+                    - generic [ref=e1482]: .PDF · 1.1 KB · 11/25/2026
+                  - generic [ref=e1483]: COMPLETED
+                - generic [ref=e1487]:
+                  - button "Process" [disabled] [ref=e1488]
+                  - button "Index" [ref=e1489] [cursor=pointer]
+                  - button "Delete phase7_project_charter_demo701.pdf" [ref=e1494] [cursor=pointer]
+              - article [ref=e1498]:
+                - button "phase7_project_charter.pdf .PDF · 1.1 KB · 11/25/2026 COMPLETED" [ref=e1499] [cursor=pointer]:
+                  - generic [ref=e1504]:
+                    - strong [ref=e1505]: phase7_project_charter.pdf
+                    - generic [ref=e1506]: .PDF · 1.1 KB · 11/25/2026
+                  - generic [ref=e1507]: COMPLETED
+                - generic [ref=e1511]:
+                  - button "Process" [disabled] [ref=e1512]
+                  - button "Index" [ref=e1513] [cursor=pointer]
+                  - button "Delete phase7_project_charter.pdf" [ref=e1518] [cursor=pointer]
+              - article [ref=e1522]:
+                - button "phase7_revision_budget_conflict.txt .TXT · 224 B · 11/25/2026 COMPLETED" [ref=e1523] [cursor=pointer]:
+                  - generic [ref=e1528]:
+                    - strong [ref=e1529]: phase7_revision_budget_conflict.txt
+                    - generic [ref=e1530]: .TXT · 224 B · 11/25/2026
+                  - generic [ref=e1531]: COMPLETED
+                - generic [ref=e1535]:
+                  - button "Process" [disabled] [ref=e1536]
+                  - button "Index" [ref=e1537] [cursor=pointer]
+                  - button "Delete phase7_revision_budget_conflict.txt" [ref=e1542] [cursor=pointer]
+              - article [ref=e1546]:
+                - button "phase7_project_charter.pdf .PDF · 1.1 KB · 11/25/2026 COMPLETED" [ref=e1547] [cursor=pointer]:
+                  - generic [ref=e1552]:
+                    - strong [ref=e1553]: phase7_project_charter.pdf
+                    - generic [ref=e1554]: .PDF · 1.1 KB · 11/25/2026
+                  - generic [ref=e1555]: COMPLETED
+                - generic [ref=e1559]:
+                  - button "Process" [disabled] [ref=e1560]
+                  - button "Index" [ref=e1561] [cursor=pointer]
+                  - button "Delete phase7_project_charter.pdf" [ref=e1566] [cursor=pointer]
+              - article [ref=e1570]:
+                - button "phase7_project_charter.pdf .PDF · 1.1 KB · 11/25/2026 COMPLETED" [ref=e1571] [cursor=pointer]:
+                  - generic [ref=e1576]:
+                    - strong [ref=e1577]: phase7_project_charter.pdf
+                    - generic [ref=e1578]: .PDF · 1.1 KB · 11/25/2026
+                  - generic [ref=e1579]: COMPLETED
+                - generic [ref=e1583]:
+                  - button "Process" [disabled] [ref=e1584]
+                  - button "Index" [ref=e1585] [cursor=pointer]
+                  - button "Delete phase7_project_charter.pdf" [ref=e1590] [cursor=pointer]
+              - article [ref=e1594]:
+                - button "phase7_project_charter.pdf .PDF · 1.1 KB · 11/25/2026 COMPLETED" [ref=e1595] [cursor=pointer]:
+                  - generic [ref=e1600]:
+                    - strong [ref=e1601]: phase7_project_charter.pdf
+                    - generic [ref=e1602]: .PDF · 1.1 KB · 11/25/2026
+                  - generic [ref=e1603]: COMPLETED
+                - generic [ref=e1607]:
+                  - button "Process" [disabled] [ref=e1608]
+                  - button "Index" [ref=e1609] [cursor=pointer]
+                  - button "Delete phase7_project_charter.pdf" [ref=e1614] [cursor=pointer]
+              - article [ref=e1618]:
+                - button "phase4_demo_synthetic_budget.txt .TXT · 309 B · 11/25/2026 COMPLETED" [ref=e1619] [cursor=pointer]:
+                  - generic [ref=e1624]:
+                    - strong [ref=e1625]: phase4_demo_synthetic_budget.txt
+                    - generic [ref=e1626]: .TXT · 309 B · 11/25/2026
+                  - generic [ref=e1627]: COMPLETED
+                - generic [ref=e1631]:
+                  - button "Process" [disabled] [ref=e1632]
+                  - button "Index" [ref=e1633] [cursor=pointer]
+                  - button "Delete phase4_demo_synthetic_budget.txt" [ref=e1638] [cursor=pointer]
+          - generic [ref=e1642]:
+            - generic [ref=e1644]:
+              - generic [ref=e1645]: EXTRACTION PREVIEW
+              - heading "Select a document" [level=3] [ref=e1646]
+            - generic [ref=e1647]:
+              - strong [ref=e1651]: Source details appear here
+              - generic [ref=e1652]: Select any stored document to inspect its processing state and evidence records.
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]: CERBERUS-X · LOCAL EVIDENCE INTELLIGENCE
+      - generic [ref=e167]: Local processing · no cloud inference

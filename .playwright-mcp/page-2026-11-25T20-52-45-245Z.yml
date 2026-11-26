@@ -1,0 +1,557 @@
+- generic [ref=e3]:
+  - complementary "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - link "CERBERUS-X EVIDENCE INTELLIGENCE" [ref=e6] [cursor=pointer]:
+        - /url: "#dashboard"
+        - generic [ref=e11]:
+          - text: CERBERUS-X
+          - generic [ref=e12]: EVIDENCE INTELLIGENCE
+      - button "Collapse navigation" [ref=e13] [cursor=pointer]
+    - generic [ref=e17]:
+      - text: COMMAND SYSTEM
+      - generic [ref=e18]: "08"
+    - generic [ref=e19]:
+      - generic [ref=e20]: Workspace
+      - link "Command overview" [ref=e21] [cursor=pointer]:
+        - /url: "#dashboard"
+      - link "Document explorer" [ref=e28] [cursor=pointer]:
+        - /url: "#documents"
+      - link "AI intelligence" [ref=e35] [cursor=pointer]:
+        - /url: "#intelligence"
+    - generic [ref=e49]:
+      - generic [ref=e50]: Analysis
+      - link "Contradiction centre" [ref=e51] [cursor=pointer]:
+        - /url: "#contradictions"
+      - link "Knowledge graph" [ref=e55] [cursor=pointer]:
+        - /url: "#graph"
+      - link "Investigations" [ref=e62] [cursor=pointer]:
+        - /url: "#investigations"
+    - generic [ref=e69]:
+      - generic [ref=e70]: System
+      - link "Reliability & settings" [ref=e71] [cursor=pointer]:
+        - /url: "#reliability"
+    - generic [ref=e76]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: Local API connected
+        - generic [ref=e81]: connected · ready storage
+      - generic [ref=e82]: CERBERUS-X · PHASE 7
+  - generic [ref=e83]:
+    - banner [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]: Workspace
+        - strong [ref=e89]: Contradiction centre
+      - generic [ref=e90]:
+        - generic [ref=e91]: LOCAL MODE
+        - button "Check API status" [ref=e93] [cursor=pointer]
+        - generic [ref=e99]: API online
+    - main [ref=e1706]:
+      - generic [ref=e1708]:
+        - generic [ref=e1709]:
+          - generic [ref=e1710]:
+            - generic [ref=e1711]: PHASE 5 · HUMAN REVIEW
+            - heading "Contradiction centre" [level=1] [ref=e1712]
+            - paragraph [ref=e1713]: Compare both claims with source provenance. Findings describe differences; the system does not choose which source is true.
+          - generic [ref=e1714]:
+            - button "Normalize new claims and detect contradictions" [ref=e1715] [cursor=pointer]: Analyze new claims
+            - button "Refresh conflict findings" [ref=e1719] [cursor=pointer]
+        - generic [ref=e1725]:
+          - tablist "Filter findings" [ref=e1726]:
+            - tab "All findings" [selected] [ref=e1727] [cursor=pointer]
+            - tab "Open" [ref=e1728] [cursor=pointer]
+            - tab "Under Review" [ref=e1729] [cursor=pointer]
+            - tab "Resolved" [ref=e1730] [cursor=pointer]
+            - tab "Dismissed" [ref=e1731] [cursor=pointer]
+          - generic [ref=e1732]: Review outcomes are auditable
+        - generic [ref=e1736]:
+          - article [ref=e1737]:
+            - generic [ref=e1738]:
+              - generic [ref=e1739]:
+                - generic [ref=e1740]: "FINDING #10"
+                - heading "POTENTIAL CONFLICT" [level=3] [ref=e1741]
+              - generic [ref=e1742]: Open
+            - generic [ref=e1752]:
+              - generic [ref=e1753]: Status
+              - generic [ref=e1754]: Heuristic 62%
+              - generic [ref=e1755]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e1756]:
+              - generic [ref=e1757]:
+                - generic [ref=e1758]: ASSERTION A
+                - strong [ref=e1759]: Project DEMO-701
+                - generic [ref=e1760]: approved_budget approved
+                - generic [ref=e1761]:
+                  - generic [ref=e1762]:
+                    - generic [ref=e1763]: Original value
+                    - text: approved
+                  - generic [ref=e1764]:
+                    - generic [ref=e1765]: Normalized value
+                    - text: approved
+                - 'button "phase7_revision_budget_conflict_demo701.txt Evidence #20 · Paragraph 4" [ref=e1766] [cursor=pointer]':
+                  - generic [ref=e1767]: phase7_revision_budget_conflict_demo701.txt
+                  - generic [ref=e1768]: "Evidence #20 · Paragraph 4"
+              - generic [ref=e1769]: COMPARE
+              - generic [ref=e1775]:
+                - generic [ref=e1776]: ASSERTION B
+                - strong [ref=e1777]: Project DEMO-701
+                - generic [ref=e1778]: approved_budget rejected
+                - generic [ref=e1779]:
+                  - generic [ref=e1780]:
+                    - generic [ref=e1781]: Original value
+                    - text: rejected
+                  - generic [ref=e1782]:
+                    - generic [ref=e1783]: Normalized value
+                    - text: rejected
+                - 'button "phase7_project_charter_demo701.pdf Evidence #24 · Page 1" [ref=e1784] [cursor=pointer]':
+                  - generic [ref=e1785]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e1786]: "Evidence #24 · Page 1"
+            - paragraph [ref=e1787]:
+              - strong [ref=e1788]: Why it was flagged
+              - text: "Status assertions differ, but the source records do not establish whether they refer to the same point in time. Source A: source location unavailable. Source B: page 1. No source is automatically preferred."
+            - generic [ref=e1789]:
+              - generic [ref=e1790]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:32:38 PM
+              - generic [ref=e1791]:
+                - button "Review" [ref=e1792] [cursor=pointer]
+                - button "Resolve" [ref=e1793] [cursor=pointer]
+                - button "Dismiss" [ref=e1796] [cursor=pointer]
+          - article [ref=e1797]:
+            - generic [ref=e1798]:
+              - generic [ref=e1799]:
+                - generic [ref=e1800]: "FINDING #9"
+                - heading "POTENTIAL CONFLICT" [level=3] [ref=e1801]
+              - generic [ref=e1802]: Open
+            - generic [ref=e1812]:
+              - generic [ref=e1813]: Status
+              - generic [ref=e1814]: Heuristic 62%
+              - generic [ref=e1815]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e1816]:
+              - generic [ref=e1817]:
+                - generic [ref=e1818]: ASSERTION A
+                - strong [ref=e1819]: Project DEMO-701
+                - generic [ref=e1820]: approved_budget approved
+                - generic [ref=e1821]:
+                  - generic [ref=e1822]:
+                    - generic [ref=e1823]: Original value
+                    - text: approved
+                  - generic [ref=e1824]:
+                    - generic [ref=e1825]: Normalized value
+                    - text: approved
+                - 'button "phase7_project_charter_demo701.pdf Evidence #16 · Page 1" [ref=e1826] [cursor=pointer]':
+                  - generic [ref=e1827]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e1828]: "Evidence #16 · Page 1"
+              - generic [ref=e1829]: COMPARE
+              - generic [ref=e1835]:
+                - generic [ref=e1836]: ASSERTION B
+                - strong [ref=e1837]: Project DEMO-701
+                - generic [ref=e1838]: approved_budget rejected
+                - generic [ref=e1839]:
+                  - generic [ref=e1840]:
+                    - generic [ref=e1841]: Original value
+                    - text: rejected
+                  - generic [ref=e1842]:
+                    - generic [ref=e1843]: Normalized value
+                    - text: rejected
+                - 'button "phase7_project_charter_demo701.pdf Evidence #24 · Page 1" [ref=e1844] [cursor=pointer]':
+                  - generic [ref=e1845]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e1846]: "Evidence #24 · Page 1"
+            - paragraph [ref=e1847]:
+              - strong [ref=e1848]: Why it was flagged
+              - text: "Status assertions differ, but the source records do not establish whether they refer to the same point in time. Source A: page 1. Source B: page 1. No source is automatically preferred."
+            - generic [ref=e1849]:
+              - generic [ref=e1850]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:32:38 PM
+              - generic [ref=e1851]:
+                - button "Review" [ref=e1852] [cursor=pointer]
+                - button "Resolve" [ref=e1853] [cursor=pointer]
+                - button "Dismiss" [ref=e1856] [cursor=pointer]
+          - article [ref=e1857]:
+            - generic [ref=e1858]:
+              - generic [ref=e1859]:
+                - generic [ref=e1860]: "FINDING #8"
+                - heading "POTENTIAL CONFLICT" [level=3] [ref=e1861]
+              - generic [ref=e1862]: Open
+            - generic [ref=e1872]:
+              - generic [ref=e1873]: Status
+              - generic [ref=e1874]: Heuristic 62%
+              - generic [ref=e1875]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e1876]:
+              - generic [ref=e1877]:
+                - generic [ref=e1878]: ASSERTION A
+                - strong [ref=e1879]: Project DEMO-701
+                - generic [ref=e1880]: approved_budget rejected
+                - generic [ref=e1881]:
+                  - generic [ref=e1882]:
+                    - generic [ref=e1883]: Original value
+                    - text: rejected
+                  - generic [ref=e1884]:
+                    - generic [ref=e1885]: Normalized value
+                    - text: rejected
+                - 'button "phase7_project_charter_demo701.pdf Evidence #16 · Page 1" [ref=e1886] [cursor=pointer]':
+                  - generic [ref=e1887]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e1888]: "Evidence #16 · Page 1"
+              - generic [ref=e1889]: COMPARE
+              - generic [ref=e1895]:
+                - generic [ref=e1896]: ASSERTION B
+                - strong [ref=e1897]: Project DEMO-701
+                - generic [ref=e1898]: approved_budget approved
+                - generic [ref=e1899]:
+                  - generic [ref=e1900]:
+                    - generic [ref=e1901]: Original value
+                    - text: approved
+                  - generic [ref=e1902]:
+                    - generic [ref=e1903]: Normalized value
+                    - text: approved
+                - 'button "phase7_project_charter_demo701.pdf Evidence #24 · Page 1" [ref=e1904] [cursor=pointer]':
+                  - generic [ref=e1905]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e1906]: "Evidence #24 · Page 1"
+            - paragraph [ref=e1907]:
+              - strong [ref=e1908]: Why it was flagged
+              - text: "Status assertions differ, but the source records do not establish whether they refer to the same point in time. Source A: page 1. Source B: page 1. No source is automatically preferred."
+            - generic [ref=e1909]:
+              - generic [ref=e1910]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:32:38 PM
+              - generic [ref=e1911]:
+                - button "Review" [ref=e1912] [cursor=pointer]
+                - button "Resolve" [ref=e1913] [cursor=pointer]
+                - button "Dismiss" [ref=e1916] [cursor=pointer]
+          - article [ref=e1917]:
+            - generic [ref=e1918]:
+              - generic [ref=e1919]:
+                - generic [ref=e1920]: "FINDING #7"
+                - heading "CONFIRMED CONFLICT" [level=3] [ref=e1921]
+              - generic [ref=e1922]: Open
+            - generic [ref=e1932]:
+              - generic [ref=e1933]: Money
+              - generic [ref=e1934]: Heuristic 78%
+              - generic [ref=e1935]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e1936]:
+              - generic [ref=e1937]:
+                - generic [ref=e1938]: ASSERTION A
+                - strong [ref=e1939]: Project DEMO-701
+                - generic [ref=e1940]: approved_budget 1850000
+                - generic [ref=e1941]:
+                  - generic [ref=e1942]:
+                    - generic [ref=e1943]: Original value
+                    - text: INR 1,850,000
+                  - generic [ref=e1944]:
+                    - generic [ref=e1945]: Normalized value
+                    - text: inr 1,850,000
+                - 'button "phase7_revision_budget_conflict_demo701.txt Evidence #20 · Paragraph 4" [ref=e1946] [cursor=pointer]':
+                  - generic [ref=e1947]: phase7_revision_budget_conflict_demo701.txt
+                  - generic [ref=e1948]: "Evidence #20 · Paragraph 4"
+              - generic [ref=e1949]: COMPARE
+              - generic [ref=e1955]:
+                - generic [ref=e1956]: ASSERTION B
+                - strong [ref=e1957]: Project DEMO-701
+                - generic [ref=e1958]: approved_budget 1400000
+                - generic [ref=e1959]:
+                  - generic [ref=e1960]:
+                    - generic [ref=e1961]: Original value
+                    - text: INR 1,400,000
+                  - generic [ref=e1962]:
+                    - generic [ref=e1963]: Normalized value
+                    - text: inr 1,400,000
+                - 'button "phase7_project_charter_demo701.pdf Evidence #24 · Page 1" [ref=e1964] [cursor=pointer]':
+                  - generic [ref=e1965]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e1966]: "Evidence #24 · Page 1"
+            - paragraph [ref=e1967]:
+              - strong [ref=e1968]: Why it was flagged
+              - text: "The sources assert different values for the same normalized field, entity, category and available time context. This confirms disagreement between assertions, not which value is true. Source A: source location unavailable. Source B: page 1. No source is automatically preferred."
+            - generic [ref=e1969]:
+              - generic [ref=e1970]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:32:38 PM
+              - generic [ref=e1971]:
+                - button "Review" [ref=e1972] [cursor=pointer]
+                - button "Resolve" [ref=e1973] [cursor=pointer]
+                - button "Dismiss" [ref=e1976] [cursor=pointer]
+          - article [ref=e1977]:
+            - generic [ref=e1978]:
+              - generic [ref=e1979]:
+                - generic [ref=e1980]: "FINDING #6"
+                - heading "CONFIRMED CONFLICT" [level=3] [ref=e1981]
+              - generic [ref=e1982]: Open
+            - generic [ref=e1992]:
+              - generic [ref=e1993]: Money
+              - generic [ref=e1994]: Heuristic 78%
+              - generic [ref=e1995]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e1996]:
+              - generic [ref=e1997]:
+                - generic [ref=e1998]: ASSERTION A
+                - strong [ref=e1999]: Project DEMO-701
+                - generic [ref=e2000]: approved_budget 1250000
+                - generic [ref=e2001]:
+                  - generic [ref=e2002]:
+                    - generic [ref=e2003]: Original value
+                    - text: INR 1,250,000
+                  - generic [ref=e2004]:
+                    - generic [ref=e2005]: Normalized value
+                    - text: inr 1,250,000
+                - 'button "phase7_project_charter_demo701.pdf Evidence #16 · Page 1" [ref=e2006] [cursor=pointer]':
+                  - generic [ref=e2007]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e2008]: "Evidence #16 · Page 1"
+              - generic [ref=e2009]: COMPARE
+              - generic [ref=e2015]:
+                - generic [ref=e2016]: ASSERTION B
+                - strong [ref=e2017]: Project DEMO-701
+                - generic [ref=e2018]: approved_budget 1400000
+                - generic [ref=e2019]:
+                  - generic [ref=e2020]:
+                    - generic [ref=e2021]: Original value
+                    - text: INR 1,400,000
+                  - generic [ref=e2022]:
+                    - generic [ref=e2023]: Normalized value
+                    - text: inr 1,400,000
+                - 'button "phase7_project_charter_demo701.pdf Evidence #24 · Page 1" [ref=e2024] [cursor=pointer]':
+                  - generic [ref=e2025]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e2026]: "Evidence #24 · Page 1"
+            - paragraph [ref=e2027]:
+              - strong [ref=e2028]: Why it was flagged
+              - text: "The sources assert different values for the same normalized field, entity, category and available time context. This confirms disagreement between assertions, not which value is true. Source A: page 1. Source B: page 1. No source is automatically preferred."
+            - generic [ref=e2029]:
+              - generic [ref=e2030]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:32:38 PM
+              - generic [ref=e2031]:
+                - button "Review" [ref=e2032] [cursor=pointer]
+                - button "Resolve" [ref=e2033] [cursor=pointer]
+                - button "Dismiss" [ref=e2036] [cursor=pointer]
+          - article [ref=e2037]:
+            - generic [ref=e2038]:
+              - generic [ref=e2039]:
+                - generic [ref=e2040]: "FINDING #5"
+                - heading "CONFIRMED CONFLICT" [level=3] [ref=e2041]
+              - generic [ref=e2042]: Open
+            - generic [ref=e2052]:
+              - generic [ref=e2053]: Money
+              - generic [ref=e2054]: Heuristic 78%
+              - generic [ref=e2055]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e2056]:
+              - generic [ref=e2057]:
+                - generic [ref=e2058]: ASSERTION A
+                - strong [ref=e2059]: Project DEMO-701
+                - generic [ref=e2060]: approved_budget 1850000
+                - generic [ref=e2061]:
+                  - generic [ref=e2062]:
+                    - generic [ref=e2063]: Original value
+                    - text: INR 1,850,000
+                  - generic [ref=e2064]:
+                    - generic [ref=e2065]: Normalized value
+                    - text: inr 1,850,000
+                - 'button "phase7_revision_budget_conflict_demo701.txt Evidence #20 · Paragraph 4" [ref=e2066] [cursor=pointer]':
+                  - generic [ref=e2067]: phase7_revision_budget_conflict_demo701.txt
+                  - generic [ref=e2068]: "Evidence #20 · Paragraph 4"
+              - generic [ref=e2069]: COMPARE
+              - generic [ref=e2075]:
+                - generic [ref=e2076]: ASSERTION B
+                - strong [ref=e2077]: Project DEMO-701
+                - generic [ref=e2078]: approved_budget 1250000
+                - generic [ref=e2079]:
+                  - generic [ref=e2080]:
+                    - generic [ref=e2081]: Original value
+                    - text: INR 1,250,000
+                  - generic [ref=e2082]:
+                    - generic [ref=e2083]: Normalized value
+                    - text: inr 1,250,000
+                - 'button "phase7_project_charter_demo701.pdf Evidence #24 · Page 1" [ref=e2084] [cursor=pointer]':
+                  - generic [ref=e2085]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e2086]: "Evidence #24 · Page 1"
+            - paragraph [ref=e2087]:
+              - strong [ref=e2088]: Why it was flagged
+              - text: "The sources assert different values for the same normalized field, entity, category and available time context. This confirms disagreement between assertions, not which value is true. Source A: source location unavailable. Source B: page 1. No source is automatically preferred."
+            - generic [ref=e2089]:
+              - generic [ref=e2090]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:32:38 PM
+              - generic [ref=e2091]:
+                - button "Review" [ref=e2092] [cursor=pointer]
+                - button "Resolve" [ref=e2093] [cursor=pointer]
+                - button "Dismiss" [ref=e2096] [cursor=pointer]
+          - article [ref=e2097]:
+            - generic [ref=e2098]:
+              - generic [ref=e2099]:
+                - generic [ref=e2100]: "FINDING #4"
+                - heading "CONFIRMED CONFLICT" [level=3] [ref=e2101]
+              - generic [ref=e2102]: Open
+            - generic [ref=e2112]:
+              - generic [ref=e2113]: Money
+              - generic [ref=e2114]: Heuristic 78%
+              - generic [ref=e2115]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e2116]:
+              - generic [ref=e2117]:
+                - generic [ref=e2118]: ASSERTION A
+                - strong [ref=e2119]: Project DEMO-701
+                - generic [ref=e2120]: approved_budget 1400000
+                - generic [ref=e2121]:
+                  - generic [ref=e2122]:
+                    - generic [ref=e2123]: Original value
+                    - text: INR 1,400,000
+                  - generic [ref=e2124]:
+                    - generic [ref=e2125]: Normalized value
+                    - text: inr 1,400,000
+                - 'button "phase7_project_charter_demo701.pdf Evidence #16 · Page 1" [ref=e2126] [cursor=pointer]':
+                  - generic [ref=e2127]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e2128]: "Evidence #16 · Page 1"
+              - generic [ref=e2129]: COMPARE
+              - generic [ref=e2135]:
+                - generic [ref=e2136]: ASSERTION B
+                - strong [ref=e2137]: Project DEMO-701
+                - generic [ref=e2138]: approved_budget 1250000
+                - generic [ref=e2139]:
+                  - generic [ref=e2140]:
+                    - generic [ref=e2141]: Original value
+                    - text: INR 1,250,000
+                  - generic [ref=e2142]:
+                    - generic [ref=e2143]: Normalized value
+                    - text: inr 1,250,000
+                - 'button "phase7_project_charter_demo701.pdf Evidence #24 · Page 1" [ref=e2144] [cursor=pointer]':
+                  - generic [ref=e2145]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e2146]: "Evidence #24 · Page 1"
+            - paragraph [ref=e2147]:
+              - strong [ref=e2148]: Why it was flagged
+              - text: "The sources assert different values for the same normalized field, entity, category and available time context. This confirms disagreement between assertions, not which value is true. Source A: page 1. Source B: page 1. No source is automatically preferred."
+            - generic [ref=e2149]:
+              - generic [ref=e2150]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:32:38 PM
+              - generic [ref=e2151]:
+                - button "Review" [ref=e2152] [cursor=pointer]
+                - button "Resolve" [ref=e2153] [cursor=pointer]
+                - button "Dismiss" [ref=e2156] [cursor=pointer]
+          - article [ref=e2157]:
+            - generic [ref=e2158]:
+              - generic [ref=e2159]:
+                - generic [ref=e2160]: "FINDING #3"
+                - heading "POTENTIAL CONFLICT" [level=3] [ref=e2161]
+              - generic [ref=e2162]: Open
+            - generic [ref=e2172]:
+              - generic [ref=e2173]: Status
+              - generic [ref=e2174]: Heuristic 62%
+              - generic [ref=e2175]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e2176]:
+              - generic [ref=e2177]:
+                - generic [ref=e2178]: ASSERTION A
+                - strong [ref=e2179]: Project DEMO-701
+                - generic [ref=e2180]: approved_budget rejected
+                - generic [ref=e2181]:
+                  - generic [ref=e2182]:
+                    - generic [ref=e2183]: Original value
+                    - text: rejected
+                  - generic [ref=e2184]:
+                    - generic [ref=e2185]: Normalized value
+                    - text: rejected
+                - 'button "phase7_project_charter_demo701.pdf Evidence #16 · Page 1" [ref=e2186] [cursor=pointer]':
+                  - generic [ref=e2187]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e2188]: "Evidence #16 · Page 1"
+              - generic [ref=e2189]: COMPARE
+              - generic [ref=e2195]:
+                - generic [ref=e2196]: ASSERTION B
+                - strong [ref=e2197]: Project DEMO-701
+                - generic [ref=e2198]: approved_budget approved
+                - generic [ref=e2199]:
+                  - generic [ref=e2200]:
+                    - generic [ref=e2201]: Original value
+                    - text: approved
+                  - generic [ref=e2202]:
+                    - generic [ref=e2203]: Normalized value
+                    - text: approved
+                - 'button "phase7_revision_budget_conflict_demo701.txt Evidence #20 · Paragraph 4" [ref=e2204] [cursor=pointer]':
+                  - generic [ref=e2205]: phase7_revision_budget_conflict_demo701.txt
+                  - generic [ref=e2206]: "Evidence #20 · Paragraph 4"
+            - paragraph [ref=e2207]:
+              - strong [ref=e2208]: Why it was flagged
+              - text: "Status assertions differ, but the source records do not establish whether they refer to the same point in time. Source A: page 1. Source B: source location unavailable. No source is automatically preferred."
+            - generic [ref=e2209]:
+              - generic [ref=e2210]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:07:40 PM
+              - generic [ref=e2211]:
+                - button "Review" [ref=e2212] [cursor=pointer]
+                - button "Resolve" [ref=e2213] [cursor=pointer]
+                - button "Dismiss" [ref=e2216] [cursor=pointer]
+          - article [ref=e2217]:
+            - generic [ref=e2218]:
+              - generic [ref=e2219]:
+                - generic [ref=e2220]: "FINDING #2"
+                - heading "CONFIRMED CONFLICT" [level=3] [ref=e2221]
+              - generic [ref=e2222]: Open
+            - generic [ref=e2232]:
+              - generic [ref=e2233]: Money
+              - generic [ref=e2234]: Heuristic 78%
+              - generic [ref=e2235]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e2236]:
+              - generic [ref=e2237]:
+                - generic [ref=e2238]: ASSERTION A
+                - strong [ref=e2239]: Project DEMO-701
+                - generic [ref=e2240]: approved_budget 1400000
+                - generic [ref=e2241]:
+                  - generic [ref=e2242]:
+                    - generic [ref=e2243]: Original value
+                    - text: INR 1,400,000
+                  - generic [ref=e2244]:
+                    - generic [ref=e2245]: Normalized value
+                    - text: inr 1,400,000
+                - 'button "phase7_project_charter_demo701.pdf Evidence #16 · Page 1" [ref=e2246] [cursor=pointer]':
+                  - generic [ref=e2247]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e2248]: "Evidence #16 · Page 1"
+              - generic [ref=e2249]: COMPARE
+              - generic [ref=e2255]:
+                - generic [ref=e2256]: ASSERTION B
+                - strong [ref=e2257]: Project DEMO-701
+                - generic [ref=e2258]: approved_budget 1850000
+                - generic [ref=e2259]:
+                  - generic [ref=e2260]:
+                    - generic [ref=e2261]: Original value
+                    - text: INR 1,850,000
+                  - generic [ref=e2262]:
+                    - generic [ref=e2263]: Normalized value
+                    - text: inr 1,850,000
+                - 'button "phase7_revision_budget_conflict_demo701.txt Evidence #20 · Paragraph 4" [ref=e2264] [cursor=pointer]':
+                  - generic [ref=e2265]: phase7_revision_budget_conflict_demo701.txt
+                  - generic [ref=e2266]: "Evidence #20 · Paragraph 4"
+            - paragraph [ref=e2267]:
+              - strong [ref=e2268]: Why it was flagged
+              - text: "The sources assert different values for the same normalized field, entity, category and available time context. This confirms disagreement between assertions, not which value is true. Source A: page 1. Source B: source location unavailable. No source is automatically preferred."
+            - generic [ref=e2269]:
+              - generic [ref=e2270]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:07:40 PM
+              - generic [ref=e2271]:
+                - button "Review" [ref=e2272] [cursor=pointer]
+                - button "Resolve" [ref=e2273] [cursor=pointer]
+                - button "Dismiss" [ref=e2276] [cursor=pointer]
+          - article [ref=e2277]:
+            - generic [ref=e2278]:
+              - generic [ref=e2279]:
+                - generic [ref=e2280]: "FINDING #1"
+                - heading "CONFIRMED CONFLICT" [level=3] [ref=e2281]
+              - generic [ref=e2282]: Resolved
+            - generic [ref=e2292]:
+              - generic [ref=e2293]: Money
+              - generic [ref=e2294]: Heuristic 78%
+              - generic [ref=e2295]: Rule-based comparison heuristic; not a calibrated probability.
+            - generic [ref=e2296]:
+              - generic [ref=e2297]:
+                - generic [ref=e2298]: ASSERTION A
+                - strong [ref=e2299]: Project DEMO-701
+                - generic [ref=e2300]: approved_budget 1250000
+                - generic [ref=e2301]:
+                  - generic [ref=e2302]:
+                    - generic [ref=e2303]: Original value
+                    - text: INR 1,250,000
+                  - generic [ref=e2304]:
+                    - generic [ref=e2305]: Normalized value
+                    - text: inr 1,250,000
+                - 'button "phase7_project_charter_demo701.pdf Evidence #16 · Page 1" [ref=e2306] [cursor=pointer]':
+                  - generic [ref=e2307]: phase7_project_charter_demo701.pdf
+                  - generic [ref=e2308]: "Evidence #16 · Page 1"
+              - generic [ref=e2309]: COMPARE
+              - generic [ref=e2315]:
+                - generic [ref=e2316]: ASSERTION B
+                - strong [ref=e2317]: Project DEMO-701
+                - generic [ref=e2318]: approved_budget 1850000
+                - generic [ref=e2319]:
+                  - generic [ref=e2320]:
+                    - generic [ref=e2321]: Original value
+                    - text: INR 1,850,000
+                  - generic [ref=e2322]:
+                    - generic [ref=e2323]: Normalized value
+                    - text: inr 1,850,000
+                - 'button "phase7_revision_budget_conflict_demo701.txt Evidence #20 · Paragraph 4" [ref=e2324] [cursor=pointer]':
+                  - generic [ref=e2325]: phase7_revision_budget_conflict_demo701.txt
+                  - generic [ref=e2326]: "Evidence #20 · Paragraph 4"
+            - paragraph [ref=e2327]:
+              - strong [ref=e2328]: Why it was flagged
+              - text: "The sources assert different values for the same normalized field, entity, category and available time context. This confirms disagreement between assertions, not which value is true. Source A: page 1. Source B: source location unavailable. No source is automatically preferred."
+            - generic [ref=e2329]:
+              - generic [ref=e2330]: Detected by Deterministic-Field-Comparison · 11/25/2026, 4:07:40 PM
+              - generic [ref=e2331]:
+                - button "Review" [ref=e2332] [cursor=pointer]
+                - button "Dismiss" [ref=e2333] [cursor=pointer]
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]: CERBERUS-X · LOCAL EVIDENCE INTELLIGENCE
+      - generic [ref=e167]: Local processing · no cloud inference
